@@ -1,1 +1,1 @@
-Hello, I am subhashis sarkar I build a game rock paper sizzer in this project i used the HTML, CSS, JAVASCRIPT. HTML used for the Structure, CSS used for the make the visual good way, and the javascript used for make the game workable.
+Hello, I am subhashis sarkar I build a game rock paper sizzer. <br> In this project i used the HTML, CSS, JAVASCRIPT. HTML used for the Structure, CSS used for the make the visual good way, and the javascript used for make the game workable.

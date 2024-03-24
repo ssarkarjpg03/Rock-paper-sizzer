@@ -7,32 +7,65 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Rock Paper Scissor</h1>
+    <div class="nav">
+        <h1>Rock Paper Scissor</h1>
+    </div>
+    <div class="hands">
+        <div class="user-hand">
+            <img src="img/user-hand.gif" alt="hand">
+        </div>
+        <div class="pc-hand">
+            <img src="img/pc-hand.gif" alt="hand">
+        </div>
+    </div>
+    <div class="hands2">
+        <div class="hands2-div">
+            <img src="img/user-rock.gif" class="after" id="user-rock" alt="rock">
+        </div>
+        <div class="hands2-div">
+            <img src="img/user-paper.gif" class="after" id="user-paper" alt="paper">
+        </div>
+        <div class="hands2-div">
+            <img src="img/user-scissor.gif" class="after" id="user-scissor" alt="scissors">
+        </div>
+        <div class="hands2-div">
+            <img src="img/pc-rock.gif" class="after" id="pc-rock" alt="rock">
+        </div>
+        <div class="hands2-div">
+            <img src="img/pc-paper.gif" class="after" id="pc-paper" alt="paper">
+        </div>
+        <div class="hands2-div">
+            <img src="img/pc-scissor.gif" class="after" id="pc-scissor" alt="scissors">
+        </div>
+    </div>
+    <div class="h3">
+        <h3>Your hand</h3>
+        <h3>PC's hand</h3>
+    </div>
     <div class="choises">
-        <div class="choise" id="rock">
+        <div class="choise" id="rock" class="remove">
             <img src="img/rock.png" alt="rock">
         </div>
 
         <div class="choise" id="paper">
-            <img src="img/paper.png" alt="paper">
+            <img src="img/paper.png" alt="paper" class="remove">
         </div>
 
         <div class="choise" id="scissors">
-            <img src="img/scissors.png" alt="scissors">
+            <img src="img/scissors.png" alt="scissors" class="remove">
+        </div>
+        <div class="score-board">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+    
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Comp</p>
+            </div>
         </div>
     </div>
-    <div class="score-board">
-        <div class="score">
-            <p id="user-score">0</p>
-            <p>You</p>
-        </div>
-
-        <div class="score">
-            <p id="comp-score">0</p>
-            <p>Comp</p>
-        </div>
-    </div>
-
     <div class="msg-container">
         <p id="msg">Play your move</p>
     </div>

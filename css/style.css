@@ -124,3 +124,128 @@ img{
 #pc-rock{
     display: flex;
 } */
+
+@media screen and (max-width:800px) {
+    *{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .nav{
+        height: 5rem;
+        width: 100%;
+        background-color: #081b31;
+        color: white;
+        line-height: 5rem;
+        position:sticky;
+    }
+    
+    .choise {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        /* display: flex; */
+        /* justify-content: center;
+        align-items: center; */
+    }
+    
+    /* .choise:hover {
+        cursor: pointer;
+        background-color: #081b31;
+        border-radius: 50%;
+    } */
+    
+    img{
+        height: 70px;
+        width: 70px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .choises {
+        /* display: flex; */
+        /* justify-content: center;
+        align-items: center; */
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+    
+    .score-board {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 3rem;
+        gap: 2rem;
+    }
+    
+    #user-score, #comp-score {
+        font-size: 4rem;
+    }
+    
+    .msg-container{
+        margin-top: 2rem;
+    }
+    
+    #msg {
+        background-color: #081b31;
+        color: white;
+        font-size: 2rem;
+        display: inline;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .hands {
+        display: grid;
+        justify-content: center;
+        /* flex-direction: column; */
+        grid-template-columns: auto auto;
+        align-items: center;
+        gap: 38px;
+        /* margin-top: -50px; */
+    }
+    
+    .hands2{
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 10px;
+    
+    }
+    
+    .hands2 img{
+        height: 100px;
+        width: 100px;
+        /* border-radius: 100px; */
+        /* border-radius: 100% black; */
+    }
+    
+    
+    .hands img {
+        height: 100px;
+        width: 100px;
+        /* display:none ;  */
+    }
+    
+    /* .hands2-div{
+        height: 260px;
+        width: 260px;
+        display: none;
+    } */
+    
+    .h3 {
+        display: grid;
+        justify-content: center;
+        /* flex-direction: column; */
+        grid-template-columns: auto auto;
+        align-items: center;
+        gap: 30px;
+    }
+    .after{
+        display: none;
+    }
+    
+}
